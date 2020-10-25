@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.principal{    
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 50PX;
+    margin-bottom: 140px;
+    
+}
+h2{
+    font-size: 26px;
+}
+.auxiliar{
+    width: 30%;
+    float: right;
+    margin-top: 50px;
+}
+footer{
+    position: relative;
+    height: 22px;
+    clear: both;
+    background: #fc6;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0; 
+    margin-bottom: 0; 
+}

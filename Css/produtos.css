@@ -1,0 +1,159 @@
+/*meio da página*/
+
+
+.principal{
+    width:70%;
+    float: left;
+    margin: 20px 10px 50px 70px;    
+    
+}
+.texto-principal{
+    color: #0056a6;
+}
+.texto-descritivo{
+    font-size: 0.9em;
+}
+
+.imagem-motor{
+    width: 250px;
+    margin-bottom: 20px; 
+}
+.imagem-motor:hover{
+    opacity: 30%;
+    cursor: pointer;
+}
+.principal dl{
+    width: 250px;
+    float: left;
+    margin-bottom: 30px;
+}
+.descricao-motores{
+    font-size: 19px;
+}
+.link-descricao{
+	font-size: 19px;
+	margin-bottom: 5px;
+}
+.link-descricao a:hover{
+	color: darkorange;
+}
+.clear{
+    clear: both;
+	height: 1px;
+	border-top: 1px solid #fc6;
+}
+
+.central{
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+/*Canto esquerdo da página*/
+.auxiliar{
+    background: linear-gradient(darkorange, #FEFEFE);
+    width: 20%;
+    float: right;
+    height: 600px;   
+}
+.texto-auxiliar{
+	
+	color: #0056a6;
+	font-size: 27px;
+	margin-bottom: 0;
+}
+.texto-auxiliar, .lista{
+	text-align: justify-all;
+	padding-left: 40px;
+}
+
+.lista{
+	margin: 0;
+}
+
+.lista li a{
+    text-decoration: none;
+    transition: 100ms;
+	font-size: 19px;
+	color: black;
+}
+.lista li a:hover{
+    background-color: white;
+    color: #FF9900;
+    font-weight: bold;
+    list-style-type: square;
+}
+
+li:hover{
+    list-style-type: square;
+}
+li{
+    list-style: none;
+    margin: 0;
+}
+footer{
+    position: relative;
+    height: 22px;
+    clear: both;
+    background: #fc6;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0; 
+    margin-bottom: 0; 
+}
+
+/*Subpáginas Produtos*/
+.ficha-tecnica{
+	width: 600px;
+}
+
+.impar{
+	background-color: #ffe6b3;
+}
+caption{
+	text-align: left;
+	color: #FF9900;
+	font-weight: bold;
+	font-size: 25px;
+}
+th{
+	font-weight: normal;
+	font-size: 20px;
+}
+td{
+	font-size: 20px;
+
+}
+.lista-descricao li{
+	list-style-type: none;
+	padding: 0;
+	text-align: left;
+
+}
+.lista-descricao{
+	padding: 0;
+	text-align: left;
+	margin-top: 10px;	
+}
+.titulo{
+	color: #ccc;
+	font-size: 30px;
+	margin-bottom: 10px;	
+}
+.subtitulo{
+	color: #0056a6;
+	font-size: 32px;
+	margin-top: 0;	
+}
+.titulo-principal{
+	color: #FF9900;
+	margin-bottom: 0;
+}
+body#ragon .lista li a#modelo-ragon, body#ty .lista li a#modelo-ty, body#delta .lista li a#modelo-delta,
+body#dyna .lista li a#modelo-dyna, body#torkGu .lista li a#modelo-torkGu, body#torkJa .lista li a#modelo-torkJa,
+body#alfa .lista li a#modelo-alfa, body#beta .lista li a#modelo-beta{
+	background-color: white;
+    color: #FF9900;
+    font-weight: bold;
+    list-style-type: square;
+	cursor: default;
+}

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.topo{
+   width: 100%;
+    height: 108px;
+}
+nav li{
+     display: inline;
+
+}
+h1{
+    margin: 0;
+    left: 50px;
+    top: 15px;
+    position: absolute;
+    font-size: 28px;
+}
+ h1 span{
+    color: white;
+ }
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 75px;
+    left: 50px;
+}
+ul li .link{
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;   
+    font-size: 20px; 
+    text-transform: uppercase;
+    padding: 3px 15px;
+}
+.link:hover{
+    background: #f63;
+}
+h1 span{
+    color: whitw;   
+}
+form{
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 75px;    
+}
+form label{
+    color: white;
+    font-size: 20px;
+}
+body#index .link#in, body#quemsomos .link#qs, body#produtos .link#pr{
+	background: #f63;
+	cursor: default;
+}
+body.produtos nav li a .link#pr{
+	background: #f63;
+	cursor: default;
+}
