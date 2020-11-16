@@ -42,14 +42,14 @@ ul li .link{
 h1 span{
     color: whitw;   
 }
-form{
+#busca{
     right: 30px;
     margin: 0;
     padding: 0;
     position: absolute;
     top: 75px;    
 }
-form label{
+#busca label{
     color: white;
     font-size: 20px;
 }

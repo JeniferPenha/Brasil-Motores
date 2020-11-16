@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/cabecalho.css" class="imagens-topo?version=4">
+    <link rel="stylesheet" href="Css/contato.css">
+    <meta http-equiv="Cache-Control" content="no-store" />
+        <link rel="stylesheet" href="Css/produtos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>            
+        <img class="topo" src="imagens/bg-topo.jpg">            
+        <h1>BrasilMaujor <span>Motores</span></h1>                    
+            <nav>
+                <ul>
+                    <li><a class="link" href="index.html" id="in">Home</a></li>
+                    <li><a class="link" href="quemSomos.html">Quem Somos</a></li>
+                    <li><a class="link" href="produtos.html">Produtos</a></li>
+                    <li><a class="link" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        <form id="busca">
+            <label>Bucar <input type="text" name="buscar"></label>
+            <input type="submit" value="OK">
+        </form> 
+        </header>
+        <main>
+            <div class="auxiliar">
+                <h3 class="texto-auxiliar">Motores Leves</h3>
+            <ul class="lista">
+                <li><a href="modeloRagon.html">Modelo Ragon WZ</a></li>
+                <li><a href="modeloTy.html">Modelo Ragon TY</a></li>
+                <li><a href="modeloDelta.html">Modelo Delta</a></li>
+            </ul>
+                <h3 class="texto-auxiliar">Motores Médios</h3>
+            <ul class="lista">
+                <li><a href="modeloDyna.html" id="modelo-dyna">Modelo Dyna</a></li>
+                <li><a href="modeloTorkGU.html">Modelo Tork GU</a></li>
+                <li><a href="modeloTorkJA.html">Modelo Tork JA</a></li>
+            </ul>
+                <h3 class="texto-auxiliar">Motores Grandes</h3>
+            <ul class="lista">
+                <li><a href="modeloComboAlfa.html">Modelo Combo Alfa</a></li>
+                <li><a href="modeloComboBeta.html">Modelo Combo Beta</a></li>            
+            </ul>
+        </div>
+        <div id="principal">
+            <h2>Fale conosco</h2>
+                <dl>
+                    <dt>Matriz</dt>
+                    <dd>Rua: Mar Calmo</dd>
+                    <dd>Bairro Industrial de Ubatuba</dd>
+                    <dd>Porto Real, SC</dd>
+                    <dd>Tel:55 4800-4567</dd>
+                    <dd>Email: <a href="mailto: jeniferpenha@hotmail.com">jeniferpenha@hotmail.com</a> </dd>
+                </dl>
+            <form id="contato" method="POST" action="">
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="nome">Nome: <span>*</span></label>
+                    <input type="text" name="nome" id="nome" />
+
+                    <label for="email">Email: <span>*</span></label>
+                    <input type="text" name="email" id="email" />
+
+                    <label for="empresa">Emprea:  <span>*</span></label>
+                    <input type="text" name="empresa" id="empresa">
+                <div id="ddd-telefone">
+                    <label for="ddd" class="um">DDD: </label>
+                    <input type="text" name="ddd" id="ddd" />
+                    <label for="telefone" class="dois">Telefone: </label>
+                    <input type="text" name="telefone" id="telefone"/></p>
+                </div>
+                <label for="assunto">assunto: <span>*</span></label>
+                    <select name="assunto">
+                        <option value="">Escolha um assunto: </option>
+                        <option value="comercial">Comercial</option>
+                        <option value="tecnico">Técnico</option>
+                        <option value="social">Social</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label for="mensagem">Mensagem: <span>*</span></label>
+                    <textarea name="mensagem" id="mensagem" cols="" rows=""></textarea>
+                    <input type="submit" name="enviar" id="enviar" value="enviar" />
+        </fieldset>
+                
+
+
+            </form>
+        </div>
+        </main>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+#principal{
+    display: inline-block;
+    overflow: hidden;
+    width: 70%;
+    margin-left: 40px;
+}
+form#contato label textarea{
+    display: block;
+}
+#contato{
+    width: 400px;
+}
+#contato input{
+    width: 250px;
+}
+#contato #ddd{
+    width: 30px;
+}
+#contato #telefone{
+    width: 145px;
+}
+#contato #enviar{
+    width: auto;
+}
+#contato textarea{
+    width: 380px;
+    height: 140px;
+}
+#contato label{
+    margin-top: 10px;
+}
+h2{
+    color: #0056a6;
+}
