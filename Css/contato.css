@@ -8,10 +8,12 @@ form#contato label textarea{
     display: block;
 }
 #contato{
-    width: 400px;
+   display: flex;
+    width: 60%;
+    flex-direction: column;
 }
 #contato input{
-    width: 250px;
+    width: 80%;
 }
 #contato #ddd{
     width: 30px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/cabecalho.css" class="imagens-topo?version=4">
     <link rel="stylesheet" href="Css/contato.css">
+
     <meta http-equiv="Cache-Control" content="no-store" />
         <link rel="stylesheet" href="Css/produtos.css">
     <title>Document</title>
@@ -49,7 +50,7 @@
         <div id="principal">
             <h2>Fale conosco</h2>
                 <dl>
-                    <dt>Matriz</dt>
+                   <dt style="color: #0056a6; font-weight: bold;">Matriz</dt>
                     <dd>Rua: Mar Calmo</dd>
                     <dd>Bairro Industrial de Ubatuba</dd>
                     <dd>Porto Real, SC</dd>
@@ -58,21 +59,23 @@
                 </dl>
             <form id="contato" method="POST" action="">
                 <fieldset>
-                    <legend>Contato</legend>
+                    <legend style="color: #0056a6; font-weight: bold;">Contato</legend>
                     <label for="nome">Nome: <span>*</span></label>
                     <input type="text" name="nome" id="nome" />
-
+                    <br>
                     <label for="email">Email: <span>*</span></label>
                     <input type="text" name="email" id="email" />
-
-                    <label for="empresa">Emprea:  <span>*</span></label>
+                    <br>
+                    <label for="empresa">Empresa:  <span>*</span></label>
                     <input type="text" name="empresa" id="empresa">
+                    <br>
                 <div id="ddd-telefone">
                     <label for="ddd" class="um">DDD: </label>
                     <input type="text" name="ddd" id="ddd" />
-                    <label for="telefone" class="dois">Telefone: </label>
+                    <label for="telefone" class="dois   ">Telefone: </label>
                     <input type="text" name="telefone" id="telefone"/></p>
                 </div>
+                <br>
                 <label for="assunto">assunto: <span>*</span></label>
                     <select name="assunto">
                         <option value="">Escolha um assunto: </option>
@@ -83,14 +86,16 @@
                     </select>
                     <label for="mensagem">Mensagem: <span>*</span></label>
                     <textarea name="mensagem" id="mensagem" cols="" rows=""></textarea>
-                    <input type="submit" name="enviar" id="enviar" value="enviar" />
+                    <br>
+                    <input style="background-color: darkorange; width: 20%;
+                    color: white; font-size: 1em;" type="submit" name="enviar" id="enviar" value="Enviar" />
         </fieldset>
-                
-
-
             </form>
         </div>
         </main>
+        <footer>
+            <p>Copyright &copy; 2020 - Jenifer da Penha Vieira</p>
+        </footer>
     
 </body>
 </html>
